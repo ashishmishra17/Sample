@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func click_tapped(_ sender : UIButton){
-        MSAnalytics.trackEvent("My custom event 1")
+        MSAnalytics.trackEvent("My custom event 2")
         let arr = NSMutableArray()
         arr.add("1")
         arr.add("1")
