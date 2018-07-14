@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func click_tapped(_ sender : UIButton){
-        MSAnalytics.trackEvent("My custom event")
+        MSAnalytics.trackEvent("My custom event 1")
     }
 
     override func didReceiveMemoryWarning() {
