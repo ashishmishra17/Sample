@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AppCenterAnalytics
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("What is this")
+    }
+    
+    @IBAction func click_tapped(_ sender : UIButton){
+        MSAnalytics.trackEvent("My custom event")
     }
 
     override func didReceiveMemoryWarning() {
