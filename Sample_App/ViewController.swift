@@ -19,6 +19,13 @@ class ViewController: UIViewController {
     
     @IBAction func click_tapped(_ sender : UIButton){
         MSAnalytics.trackEvent("My custom event 1")
+        let arr = NSMutableArray()
+        arr.add("1")
+        arr.add("1")
+        arr.add("1")
+        for index in 0..<3 {
+           print("%@", arr.object(at: index+1))
+        }
     }
 
     override func didReceiveMemoryWarning() {
