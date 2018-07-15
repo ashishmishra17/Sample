@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         print("What is this")
         MSAppCenter.setLogLevel(.verbose)
+        
     }
     
     @IBAction func click_tapped(_ sender : UIButton){
