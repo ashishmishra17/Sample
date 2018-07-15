@@ -18,6 +18,7 @@
 		C5A3B78220FB3D9F008287FE /* AppCenterXCUITestExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A3B78320FB3D9F008287FE /* AppCenterXCUITestExtensions.framework */; };
 		C5A3B78420FB3DAF008287FE /* AppCenterXCUITestExtensions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C5A3B78320FB3D9F008287FE /* AppCenterXCUITestExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C5A3B78520FB3E20008287FE /* AppCenterXCUITestExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A3B78620FB3E20008287FE /* AppCenterXCUITestExtensions.framework */; };
+		C5A3B78720FB443D008287FE /* AppCenterXCUITestExtensions.framework in Resources */ = {isa = PBXBuildFile; fileRef = C5A3B76C20FB3719008287FE /* AppCenterXCUITestExtensions.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A3B78720FB443D008287FE /* AppCenterXCUITestExtensions.framework in Resources */,
 				C5A3B76520F9B32D008287FE /* LaunchScreen.storyboard in Resources */,
 				C5A3B76220F9B32D008287FE /* Assets.xcassets in Resources */,
 				C5A3B76020F9B32D008287FE /* Main.storyboard in Resources */,

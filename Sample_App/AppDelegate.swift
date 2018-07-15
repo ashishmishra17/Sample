@@ -10,7 +10,7 @@ import UIKit
 import AppCenter
 import AppCenterAnalytics
 import AppCenterCrashes
-import AppCenterXCUITestExtensions
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
